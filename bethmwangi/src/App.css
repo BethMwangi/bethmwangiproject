@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.nav-sider{
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  flex: 0 0 200px;
+  max-width: 400px;
+  min-width: 400px;
+  width: 400px;
+}
+.navigation {
+ color: #000000;
+
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected
+{
+  background-color: #ffffff;
+  color: #000000;
+}
+.ant-menu-item {
+  color: #ffffff;
+}
