@@ -23,7 +23,6 @@ export default class SideMenu extends Component {
     return (
       <div>
 
-
             <Menu
               onClick={this.handleClick}
               style={{
