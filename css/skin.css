@@ -96,7 +96,7 @@ h6, h6 span { font-size:20px; line-height:20px; }
 
 body { background:#f6f6f6; color:#777777; }
 
-h1, h1 span,
+/* h1, h1 span,
 h2, h2 span,
 h3, h3 span,
 h4, h4 span,
@@ -105,6 +105,23 @@ h6, h6 span,
 #section-title,
 #section-title h1, #section-title h1 span,
 #section-title h2, #section-title h2 span,
+#section-title h3, #section-title h3 span,
+#section-title h4, #section-title h4 span,
+#section-title h5, #section-title h5 span,
+#section-title h6, #section-title h6 span,
+.blog-post-content .blog-post-title, .blog-post-content .blog-post-title a,
+.blog-post-grid-content h2, .blog-post-grid-content h2 span, .blog-post-grid-content h2 a,
+.blog-post-content .blog-post-meta span,
+section#comments h2#comments-title, section#comments h3#reply-title {
+	color:#222222;
+} */
+h1, h1 span,
+h3, h3 span,
+h4, h4 span,
+h5, h5 span,
+h6, h6 span,
+#section-title,
+#section-title h1, #section-title h1 span,
 #section-title h3, #section-title h3 span,
 #section-title h4, #section-title h4 span,
 #section-title h5, #section-title h5 span,

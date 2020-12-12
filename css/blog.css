@@ -1,0 +1,112 @@
+/* PROF IMAGE */
+/* .circular {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.my-profile {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -15%; 
+  height: 80%;
+  width: auto;
+} */
+
+/* SOCIAL ICONS */
+
+/* .connect {
+    width: 100%;
+    background-color:#fff;
+  
+} */
+ 
+.connect a {
+    
+      text-decoration: none !important;
+      color: white;
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      align-items: center;
+      justify-content: center;
+      /* border-radius:10px;
+      margin-right: 20px; */
+      font-size: 25px;
+      overflow: hidden;
+      position: relative;
+}
+.connect  i {
+        position: relative;
+        z-index: 3;
+      }
+
+.connect  .fb {
+        background-color: #3b5998;
+      }
+      
+      .connect .tw {
+        background-color: #00aced;
+      }
+      
+      .connect  .git {
+        background-color: #dd4b39;
+      }
+      
+      .connect  .gmail {
+        background-color: black;
+      }
+      
+      .connect  .in {
+        background-color: #007bb6;
+      }
+      
+      .buttons {
+        margin-top: 50px;
+        display: inline-block;
+        justify-content: center;
+      }
+
+.connect.laertes a {
+  
+    
+      transition: all 0.2s linear 0s;
+}
+      .connect.laertes a   i {
+        transition: all 0.2s linear 0s;
+      }
+     
+      .connect.laertes a i:hover {
+        border-radius: 50%/20%;
+      }
+        .connect.laertes a {
+          transform: scale(1.1);
+          text-shadow: 0 0 12px rgba( #212121, 0.6);
+        }
+      
+.widget-title  ul {
+  list-style: none;
+}
+
+#content-wrapper {
+  background-color: black;
+}
+.pages h4 {
+
+color:#ffffff;
+}
+
+.pages h6{
+  color: #ffb400;
+}
+.pages p{
+  font-size: 14px;
+}
+.emoji {
+
+  list-style: none;
+}
+.emoji-icon {
+  font-size: 16px;
+}
