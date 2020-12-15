@@ -137,8 +137,8 @@ section#comments h2#comments-title, section#comments h3#reply-title {
 
 .blog-post-content .blog-post-meta { color:#777777; }
 
-a { color:#FF2E2E; }
-a:hover { color:#FF2E2E; }
+/* a { color:#FF2E2E; }
+a:hover { color:#FF2E2E; } */
 
 aside.sidebar ul li h4.widget-title, aside.sidebar ul li h4.widget-title span { 
 	color:#999999;

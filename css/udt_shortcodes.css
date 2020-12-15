@@ -388,45 +388,6 @@
 		.accordion .column_three_fourths, .tabs .column_three_fourths {width:73%;margin-right:5%;}
 		.accordion .last, .tabs .last {margin-right:0;}	
 
-/*--------------------------------------------------------
-	5.Ui-Pricing Tables
---------------------------------------------------------*/
-
-		/* Pricing table
-		-----------------------------*/
-		.pricing_table {float:left;width:100%;text-align:center;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
-		.pricing_table .pricing_table_col {float:left;width:100%;margin-left:-1px;border:1px solid #ddd;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;background:#f9f9f9;}
-		.pricing_table .pricing_table_col.featured{position: relative; box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2); margin-top: -9px;border:none;}
-		.pricing_table .pricing_table_col.featured > ul > li:first-child{padding:30px 0;box-shadow: 0 -111px 0 rgba(255, 255, 255, 0.2) inset;border-bottom:0px solid rgba(0,0,0,0);font-size: 20px; text-shadow:2px 2px 0 rgba(0,0,0,.1);}
-		.pricing_table .pricing_table_col.featured > ul > li.pricing_table_bg {padding-bottom: 31px;}
-		.pricing_table .pricing_table_col.featured > ul > li.pricing_table_bg:last-child{padding: 35px 0;}
-		.pricing_table.pricing_table_two_cols .pricing_table_col {width:50%;}
-		.pricing_table.pricing_table_three_cols .pricing_table_col {width:33%;}
-		.pricing_table.pricing_table_four_cols .pricing_table_col {width:25%;}
-		.pricing_table.pricing_table_five_cols .pricing_table_col {width:20%;}
-		.pricing_table .pricing_table_col:first-child {margin-left:0;border-top-left-radius:3px;border-bottom-left-radius:3px;}
-		.pricing_table .pricing_table_col:last-child {border-top-right-radius:3px;border-bottom-right-radius:3px;}
-		.pricing_table .pricing_table_col > ul {float:left;width:100%;margin:0;padding:0;list-style:none;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
-		.pricing_table .pricing_table_col > ul > li {float:left;width:100%;margin:0;padding:15px 10px;border-bottom:1px solid #eee;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;color:#999;}
-		.pricing_table .pricing_table_col > ul > li:first-child {font-family:Arial, Helvetica, sans-serif;font-size:18px;font-weight:bold;text-transform:none;color:#fff;background:#666;box-shadow: 0 -3px 0 rgba(0, 0, 0, 0) inset;padding:25px 0;}
-		.pricing_table .pricing_table_col > ul > li span.price {font-family:'Source Sans Pro';font-size:40px;line-height:34px;font-weight:normal;color:#000;margin-bottom: 5px;}
-		.pricing_table .pricing_table_col > ul > li span.price_affix {display: block;font-size:12px;line-height:12px;font-weight:bold;color:#000;opacity: .5;}
-		.pricing_table .pricing_table_col > ul > li span.price_super{font-size:16px;position:relative;top:-14px;}
-		.pricing_table .pricing_table_col > ul > li.pricing_table_bg {background:#f4f4f4; padding: 30px 0;}
-		.pricing_table .pricing_table_col > ul > li .submit {width:70%;margin:0 15%;-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
-	
-			/*Colors*/
-			.pricing_table .pricing_table_col {border:1px solid #ddd;background:#f9f9f9;transition: background-color .25s ease-in-out;-moz-transition: background-color .25s ease-in-out;-webkit-transition: background-color .25s ease-in-out;}
-			.pricing_table .pricing_table_col.featured:hover > ul > li:first-child{box-shadow: 0 -111px 0 rgba(255, 255, 255, 0) inset;}
-			.pricing_table .pricing_table_col > ul > li {border-bottom:1px solid #ddd;color:#999;}
-			.pricing_table .pricing_table_col > ul > li:first-child {color:#eee;background:#666;transition: background-color .25s ease-in-out;-moz-transition: background-color .25s ease-in-out;-webkit-transition: background-color .25s ease-in-out;}
-			.pricing_table .pricing_table_col > ul > li span.price {color:#666;}
-			.pricing_table .pricing_table_col > ul > li span.price_affix {color:#999; font-weight: normal;}
-			.pricing_table .pricing_table_col > ul > li.pricing_table_bg {background:#f4f4f4;}
-			.pricing_table .pricing_table_col:hover {background:#eee;}
-			.pricing_table .pricing_table_col:hover > ul > li:first-child {background:#333;}
-
-		.pricing_table .pricing_table_col > ul > li:last-child, .page.light .pricing_table .pricing_table_col > ul > li:last-child,.page.dark .pricing_table .pricing_table_col > ul > li:last-child {border-bottom:0;}
 
 /*--------------------------------------------------------
 	6.Chart
@@ -448,58 +409,6 @@
 	ul.socialSmall {float:left; list-style:none;margin:0 auto 30px auto; overflow:hidden;display:table;}
 	ul.socialSmall li{display:inline; float:left; margin: 0;}
 	ul.socialSmall li.social-label{font-style:italic; font-size:12px;margin-right:8px; line-height:22px;}
-	ul.socialSmall li a{background-repeat: no-repeat;float:left;width:24px;height:24px;margin-right:5px;background-position: center;background-color:#27CCC0;box-shadow:0 -3px 0 rgba(0,0,0,0) inset;background-position:center; border-radius:50%;padding:3px;transition: all .25s ease-in-out;-moz-transition: all .25s ease-in-out;-webkit-transition: all .25s ease-in-out;}
+	ul.socialSmall li a{background-repeat: no-repeat;float:left;width:24px;height:24px;margin-right:5px;background-position: center;background-color:#27CCC0;box-shadow:0 -3px 0 rgba(0,0,0,0) inset;background-position:center;padding:3px;transition: all .25s ease-in-out;-moz-transition: all .25s ease-in-out;-webkit-transition: all .25s ease-in-out;}
 	ul.socialSmall li a:hover{box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset;opacity:0.5;filter: alpha(opacity=50); color:#fff;}
 	ul.socialSmall li:last-child a{margin-right: 0;}
-	ul.socialSmall li a.pinterest{background-image:url(../images/ui_shortcodes/social/pinterest-small.png);}
-	ul.socialSmall li a.twitter{background-image:url(../images/ui_shortcodes/social/twitter-small.png);}
-	ul.socialSmall li a.facebook{background-image:url(../images/ui_shortcodes/social/facebook-small.png);}
-	ul.socialSmall li a.skype{background-image:url(../images/ui_shortcodes/social/skype-small.png);}
-	ul.socialSmall li a.forrst{background-image:url(../images/ui_shortcodes/social/forrst-small.png);}
-	ul.socialSmall li a.googleplus{background-image:url(../images/ui_shortcodes/social/googleplus-small.png);}
-	ul.socialSmall li a.flickr{background-image:url(../images/ui_shortcodes/social/flickr-small.png);}
-	ul.socialSmall li a.myspace{background-image:url(../images/ui_shortcodes/social/myspace-small.png);}
-	ul.socialSmall li a.vimeo{background-image:url(../images/ui_shortcodes/social/vimeo-small.png);}
-	ul.socialSmall li a.dribbble{background-image:url(../images/ui_shortcodes/social/dribbble-small.png);}
-	ul.socialSmall li a.linkedin{background-image:url(../images/ui_shortcodes/social/linkedin-small.png);}
-	ul.socialSmall li a.youtube{background-image:url(../images/ui_shortcodes/social/youtube-small.png);}
-	ul.socialSmall li a.vine{background-image:url(../images/ui_shortcodes/social/vine-small.png);}
-	ul.socialSmall li a.spotify{background-image:url(../images/ui_shortcodes/social/spotify-small.png);}
-	ul.socialSmall li a.rss{background-image:url(../images/ui_shortcodes/social/rss-small.png);}
-	ul.socialSmall li a.instagram{background-image:url(../images/ui_shortcodes/social/instagram-small.png);}
-	ul.socialSmall li a.github{background-image:url(../images/ui_shortcodes/social/github-small.png);}
-	ul.socialSmall li a.behance{background-image:url(../images/ui_shortcodes/social/behance-small.png);}
-	ul.socialSmall li a.deviantart{background-image:url(../images/ui_shortcodes/social/deviantart-small.png);}
-	ul.socialSmall li a.soundcloud{background-image:url(../images/ui_shortcodes/social/soundcloud-small.png);}
-	ul.socialSmall li a.android{background-image:url(../images/ui_shortcodes/social/android-small.html);}
-	ul.socialSmall li a.apple{background-image:url(../images/ui_shortcodes/social/apple-small.html);}
-	ul.socialSmall li a.windows{background-image:url(../images/ui_shortcodes/social/windows-small.html);}
-	ul.socialSmall li a.tumblr{background-image:url(../images/ui_shortcodes/social/tumblr-small.png);}
-	ul.socialSmall li a.fivehundredpx{background-image:url(../images/ui_shortcodes/social/500-small.png);}
-
-
-	ul.socialSmall.white li a.pinterest{background-image:url(../images/ui_shortcodes/social/pinterest-small-white.png);}
-	ul.socialSmall.white li a.twitter{background-image:url(../images/ui_shortcodes/social/twitter-small-white.png);}
-	ul.socialSmall.white li a.facebook{background-image:url(../images/ui_shortcodes/social/facebook-small-white.png);}
-	ul.socialSmall.white li a.skype{background-image:url(../images/ui_shortcodes/social/skype-small-white.png);}
-	ul.socialSmall.white li a.forrst{background-image:url(../images/ui_shortcodes/social/forrst-small-white.png);;}
-	ul.socialSmall.white li a.googleplus{background-image:url(../images/ui_shortcodes/social/googleplus-small-white.png);}
-	ul.socialSmall.white li a.flickr{background-image:url(../images/ui_shortcodes/social/flickr-small-white.png);}
-	ul.socialSmall.white li a.myspace{background-image:url(../images/ui_shortcodes/social/myspace-small-white.png);}
-	ul.socialSmall.white li a.vimeo{background-image:url(../images/ui_shortcodes/social/vimeo-small-white.png);}
-	ul.socialSmall.white li a.dribbble{background-image:url(../images/ui_shortcodes/social/dribbble-small-white.png);}
-	ul.socialSmall.white li a.linkedin{background-image:url(../images/ui_shortcodes/social/linkedin-small-white.png);}
-	ul.socialSmall.white li a.youtube{background-image:url(../images/ui_shortcodes/social/youtube-small-white.png);}
-	ul.socialSmall.white li a.vine{background-image:url(../images/ui_shortcodes/social/vine-small-white.png);}
-	ul.socialSmall.white li a.spotify{background-image:url(../images/ui_shortcodes/social/spotify-small-white.png);}
-	ul.socialSmall.white li a.rss{background-image:url(../images/ui_shortcodes/social/rss-small-white.png);}
-	ul.socialSmall.white li a.instagram{background-image:url(../images/ui_shortcodes/social/instagram-small-white.png);}
-	ul.socialSmall.white li a.github{background-image:url(../images/ui_shortcodes/social/github-small-white.png);}
-	ul.socialSmall.white li a.behance{background-image:url(../images/ui_shortcodes/social/behance-small-white.png);}
-	ul.socialSmall.white li a.deviantart{background-image:url(../images/ui_shortcodes/social/deviantart-small-white.png);}
-	ul.socialSmall.white li a.soundcloud{background-image:url(../images/ui_shortcodes/social/soundcloud-small-white.png);}
-	ul.socialSmall.white li a.android{background-image:url(../images/ui_shortcodes/social/android-small-white.html);}
-	ul.socialSmall.white li a.apple{background-image:url(../images/ui_shortcodes/social/apple-small-white.html);}
-	ul.socialSmall.white li a.windows{background-image:url(../images/ui_shortcodes/social/windows-small-white.html);}
-	ul.socialSmall.white li a.tumblr{background-image:url(../images/ui_shortcodes/social/tumblr-small-white.png);}
-	ul.socialSmall.white li a.fivehundredpx{background-image:url(../images/ui_shortcodes/social/500-small-white.png);}
